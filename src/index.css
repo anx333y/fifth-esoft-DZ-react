@@ -1,0 +1,12 @@
+:root {
+  background-color: #0F1A20;
+	color: #D9E6EA;
+	font-family: Roboto;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
