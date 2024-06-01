@@ -46,8 +46,9 @@ const SearchPage = () => {
 				}
 			}
 			dispatch(pushSearchParamFromURL(nowSearchParams));
+		} else {
+			setSearch(params);
 		}
-		setSearch(params);
 	}, [])
 
 	useEffect(() => {

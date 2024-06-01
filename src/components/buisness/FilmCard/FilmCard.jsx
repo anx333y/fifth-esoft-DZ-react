@@ -38,12 +38,12 @@ if (filmData) {
 		<div className={['film-card', ...className.split()].join(' ')}>
 			<SwitchFavorite 
 				className="switch-favorite"
-				filmData={{name: filmData.id, id: filmData.id}}
+				filmData={{name: filmData.name, id: filmData.id}}
 			/>
 			<Link to={"/film/" + filmData.id}>
 				<img
 					ref={posterRef}
-					src="/src/assets/defaultImages/noPoster.svg"
+					src="/defaultImages/noPoster.svg"
 					alt={filmData.name}
 					className="film-card__image"
 					/>
