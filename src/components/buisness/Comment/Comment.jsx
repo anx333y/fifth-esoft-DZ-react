@@ -1,7 +1,7 @@
 import "./Comment.css";
 
 export const Comment = ({
-	avatarUrl = '/src/assets/defaultImages/default-avatar.jpg',
+	avatarUrl = '/defaultImages/default-avatar.jpg',
 	userName = 'Неопознаный баобаб',
 	time = 'когда-то',
 	content = 'Пустой комментарий :(',

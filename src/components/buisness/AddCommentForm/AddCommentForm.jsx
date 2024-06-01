@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./AddCommentForm.css";
 import { Button, TextField } from "@mui/material";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addComment } from "../../../store/commentsSlice";
 
 export const AddCommentForm = ({ filmId }) => {
@@ -41,7 +41,7 @@ export const AddCommentForm = ({ filmId }) => {
 		<div className="comment add-comment">
 			<div className="comment__header">
 				<div className="comment__header__avatar">
-					<img className="comment__header__avatar-image" src="/src/assets/defaultImages/default-avatar.jpg" alt="аватар пользователя" />
+					<img className="comment__header__avatar-image" src="/defaultImages/default-avatar.jpg" alt="аватар пользователя" />
 				</div>
 				<div className="comment__header__info">
 					<TextField

@@ -67,7 +67,7 @@ export const Film = () => {
 				<section className="film-page">
 							<img
 								ref={posterRef}
-								src="/src/assets/defaultImages/noPoster.svg"
+								src="/defaultImages/noPoster.svg"
 								alt={film.name}
 								className="film-page__image"
 							/>

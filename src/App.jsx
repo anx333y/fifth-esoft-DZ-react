@@ -18,7 +18,7 @@ function App() {
   return (
 		<ThemeProvider theme={appTheme}>
 			<Provider store={store}>
-				<BrowserRouter>
+				<BrowserRouter basename={import.meta.env.BASE_URL}>
 					<Routes>
 						<Route path='/' element={<MainLayout />}>
 							<Route path='/' element={<MainPage />} />
