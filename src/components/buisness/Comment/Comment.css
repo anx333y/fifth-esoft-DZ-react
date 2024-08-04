@@ -1,0 +1,43 @@
+.comment{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	width: 80%;
+
+	background-color: rgba(217, 230, 234, 0.05);
+	border-radius: 8px;
+	padding: 16px;
+}
+.comment__header{
+	display: flex;
+	gap: 16px;
+}
+.comment__header__avatar{
+	width: 48px;
+	height: 48px;
+	overflow: hidden;
+	border-radius: 20%;
+}
+.comment__header__avatar-image{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.comment__header__info{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.comment__header__user-name{
+	padding: 8px 0;
+	margin: 0;
+}
+.comment__header__time{
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.comment-content{
+	text-align: left;
+	margin-left: 56px;
+	padding: 4px 8px;
+}

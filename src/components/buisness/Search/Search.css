@@ -1,0 +1,30 @@
+.search-form{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding: 16px 0;
+	align-items: start;
+}
+.search-input{
+	width: calc(70% - 4px);
+}
+.search-buttons{
+	display: flex;
+	gap: 8px;
+	width: calc(30% - 4px);
+	align-self: stretch;
+}
+.search-button{
+	display: flex;
+	flex: 1;
+	width: 100%;
+}
+.search-selects{
+	display: flex;
+	width: 100%;
+	gap: 8px;
+}
+.search-select{
+	width: calc(100% / 3);
+}

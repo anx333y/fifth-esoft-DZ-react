@@ -1,0 +1,33 @@
+.film-page{
+	display: flex;
+	gap: 32px;
+}
+.film-page__image{
+	max-height: 400px;
+	border-radius: 8px;
+}
+.film-page__main-block{
+	width: 100%;
+}
+.film-page__main-block__title-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.film-page__main-block__title-block__right{
+	display: flex;
+	gap: 8px;
+}
+.film-page__film-rating-block{
+	display: flex;
+	align-items: center;
+	gap: 4px;
+
+	font-size: 16px;
+}
+.film-page__film-info{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	text-align: left;
+}

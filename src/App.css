@@ -1,0 +1,12 @@
+#root {
+  padding: 0 calc((100% - 1280px) / 2);
+  text-align: center;
+}
+.link{
+	text-decoration: none;
+	color: #D9E6EA;
+	font-size: 18px;
+}
+.link:hover{
+	text-shadow: 0 0 10px rgb(30, 105, 146);
+}

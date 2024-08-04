@@ -1,0 +1,14 @@
+.film-comments{
+	margin-top: 64px;
+	margin-bottom: 32px;
+	width: 100%;
+}
+.film-comments-title{
+	text-align: left;
+}
+.film-comments-list{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
